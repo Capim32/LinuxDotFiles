@@ -8,20 +8,20 @@
     "margin": 4, // Gap
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "network",
+        "pulseaudio",
     ],
     "modules-center": [
         "hyprland/window"
     ],
     "modules-right": [
-        "pulseaudio",
         "cpu",
         "memory",
         "battery",
-        "clock#simpleclock",
-        "clock",
-        "network",
         "custom/notification",
+        "clock",
+        "clock#simpleclock",
         "custom/power"
     ],
     "hyprland/workspaces": {
@@ -29,7 +29,7 @@
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e+1",
         "persistent-workspaces": {
-            "*": 5
+            "*": 3
         }
     },
     "keyboard-state": {
