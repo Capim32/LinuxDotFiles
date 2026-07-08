@@ -15,9 +15,16 @@ sudo pacman -Syu --noconfirm
 
 PACOTES=(
     hyprland
+    fish
     kitty
-    wofi
+    rofi
+    btop
+    wlogout
+    pulseaudio
+    fastfetch
     waybar
+    libreoffice
+    qView
     dunst
     sddm
     fish
@@ -25,6 +32,8 @@ PACOTES=(
     ttf-jetbrains-mono-nerd
     polkit-kde-agent
     git
+    dconf
+
 )
 
 echo "Instalando pacotes base..."
