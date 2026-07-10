@@ -1,0 +1,10 @@
+
+
+
+# BEGIN_KITTY_THEME
+# Tokyo Night
+include current-theme.conf
+background_opacity 0.9
+dynamic_background_opacity yes
+background #1e1e2e
+# END_KITTY_THEME
