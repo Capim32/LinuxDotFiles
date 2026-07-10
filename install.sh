@@ -34,7 +34,6 @@ PACOTES=(
     starship
     ttf-jetbrains-mono-nerd
     polkit-kde-agent
-    git
     calcurse
     pavucontrol
     wlogout
