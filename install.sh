@@ -18,12 +18,9 @@ PACOTES=(
     fish
     kitty
     rofi
-<<<<<<< HEAD
-    waybar
     hyprlock
     hyprshot
     hypridle
-=======
     btop
     wlogout
     pulseaudio
@@ -31,7 +28,6 @@ PACOTES=(
     waybar
     libreoffice
     qView
->>>>>>> 1b18da79e0508bfafd9e9898f70e4b8f6368edb2
     dunst
     sddm
     fish
@@ -39,16 +35,12 @@ PACOTES=(
     ttf-jetbrains-mono-nerd
     polkit-kde-agent
     git
-<<<<<<< HEAD
     calcurse
     pavucontrol
     wlogout
     brightnessctl
-    sddm
-=======
     dconf
 
->>>>>>> 1b18da79e0508bfafd9e9898f70e4b8f6368edb2
 )
 
 echo "Instalando pacotes base..."
