@@ -16,8 +16,11 @@ sudo pacman -Syu --noconfirm
 PACOTES=(
     hyprland
     kitty
-    wofi
+    rofi
     waybar
+    hyprlock
+    hyprshot
+    hypridle
     dunst
     sddm
     fish
@@ -25,6 +28,11 @@ PACOTES=(
     ttf-jetbrains-mono-nerd
     polkit-kde-agent
     git
+    calcurse
+    pavucontrol
+    wlogout
+    brightnessctl
+    sddm
 )
 
 echo "Instalando pacotes base..."
@@ -34,7 +42,7 @@ echo "Restaurando arquivos de configuração..."
 # Garante que .config existe
 mkdir -p ~/.config
 
-# Copia tudo da pasta .config do seu repositório para a .config do sistema
+# Copia tudo da pasta .config do repositório para a .config do sistema
 cp -r .config/* ~/.config/
 echo "Configurações copiadas!"
 
