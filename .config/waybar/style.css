@@ -1,8 +1,7 @@
 * {
     min-height: 0;
     min-width: 0;
-    font-family: Lexend, "JetBrainsMono NFP";
-    font-size: 12px;
+    font-family: "JetBrainsMono Nerd Font", "sans-serif";
     font-weight: 600;
 }
 
@@ -75,16 +74,20 @@ window#waybar.empty #window {
     background-color: transparent;
 }
 
+#network {
+    color: #94e2d5;
+}
+
 #cpu {
     color: #94e2d5;
 }
 
 #memory {
-    color: #cba6f7;
+    color: #91b6e6;
 }
 
 #battery {
-    /*color: #585b70;*/
+    color: #77d7af;
 }
 
 #clock {
@@ -92,7 +95,7 @@ window#waybar.empty #window {
 }
 
 #clock.simpleclock {
-    color: #89b4fa;
+   color: #ffffff;
 }
 
 #window {
@@ -108,7 +111,7 @@ window#waybar.empty #window {
 }
 
 #custom-logo {
-    color: #89b4fa;
+    color: #ba89fa;
 }
 
 #custom-power {
